@@ -1,6 +1,3 @@
-console.log("test");
-let displayValue = "";
-
 function appendToDisplay(value) {
   displayValue += value;
   document.getElementById("display").value = displayValue;
